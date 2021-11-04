@@ -1,0 +1,449 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*                 Start coding                    */
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+::-webkit-scrollbar-track {
+  background: #07070f;
+
+
+}
+
+
+::-webkit-scrollbar-thumb {
+
+  background: white;
+  height: 80px;
+  border-radius: 14px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0082e6;
+}
+nav{
+
+  background: #07070f;
+  height: 80px;
+  width: 100%;
+}
+span.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 70px;
+  font-family: 'Staatliches', cursive;
+}
+nav ul{
+  float: right;
+  margin-right: 50px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a:hover{
+
+    color: #0082e6;
+    background:none;
+}
+nav ul li a{
+  font-family:  'Staatliches', cursive;
+  color: #fff;
+  font-size: 13px;
+  padding: 7px 13px;
+	letter-spacing: 1px;
+
+}
+.inform{
+	padding-top: 40px;
+  width: 80%;
+  margin: 40px auto;
+  font-family: 'Poppins', sans-serif;
+	line-height: 20px;
+	text-align: center;
+
+}
+.mainimg{
+  height: 100vh;
+  width: 100%;
+  background: url("img/logo.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Staatliches', cursive;
+}
+
+.mainimg .home-content{
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mainimg .home-content{
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mainimg .text-one{
+  font-size: 25px;
+  color: white;
+}
+.mainimg .text-two{
+  color: white;
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+.mainimg .text-three{
+  font-size: 40px;
+  margin: 5px 0;
+  color: white;
+}
+
+.Myinfo,
+h2{
+
+  font-family: 'Staatliches', cursive;
+  width: 100%;
+  text-align: center;
+  color: #111;
+}
+
+.hog{
+    background: url("img/hog.png") no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Staatliches', cursive;
+}
+.spo{
+  background: url("img/spo.png") no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Staatliches', cursive;
+}
+.sti{
+  background: url("img/Sti.png") no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Staatliches', cursive;
+}
+.himym{
+  background: url("img/HIMYM.png") no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Staatliches', cursive;
+}
+.pika{
+  background: url("img/PIKA.png") no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Staatliches', cursive;
+}
+.castle{
+  background: url("img/castle.png") no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Staatliches', cursive;
+}
+.hagrid{
+  background: url("img/hagrid.png") no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Staatliches', cursive;
+}
+.hog .text-one,
+.spo .text-one,
+.sti .text-one,
+.dis .text-one,
+.dis2 .text-one,
+.dis3 .text-one,
+.cov .text-one,
+.himym .text-one,
+.pika .text-one,
+.castle .text-one,
+.hagrid .text-one{
+  font-size: 25px;
+  color: white;
+  margin-left: 10px;
+}
+.hog .text-two,
+.spo .text-two,
+.sti .text-two,
+.dis .text-two,
+.dis2 .text-two,
+.dis3 .text-two,
+.cov .text-two,
+.himym .text-two,
+.pika .text-two,
+.castle .text-two,
+.hagrid .text-two
+{
+  color: white;
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.dis{
+    background: url("img/toyStory.png");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Staatliches', cursive;
+}
+.dis2{
+    background: url("img/mulan.png") no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Staatliches', cursive;
+}
+.dis3{
+    background: url("img/Rattaouile.png") no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Staatliches', cursive;
+}
+.cov{
+    background: url("img/logoc.png") no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Staatliches', cursive;
+}
+.cov2{
+    background: url("img/covilha.jpg") no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Staatliches', cursive;
+}
+.cov3{
+    background: url("img/covila.png") no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Staatliches', cursive;
+}
+footer{
+ position: relative;
+ top: 30px;
+  background: #07070f;
+  padding: 30px 20px;
+}
+footer .caixa{
+
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+}
+footer .ftr h3{
+  font-size: 1em;
+  margin-bottom: 1.2em;
+  color: #fff;
+    letter-spacing: 2px;
+}
+footer .conteudo{
+  list-style: none;
+
+}
+footer .conteudo a{
+  text-decoration: none;
+  color: #fff;
+  opacity: .6;
+  line-height: 30px;
+  transition: .3s ease opacity;
+  letter-spacing: 2px;
+
+}
+footer .conteudo a:hover{
+  opacity: 1;
+
+}
+footer a:visited {
+  color: #fff;
+}
+footer a:hover,a.active{
+  background: none;
+  color: #0082e6;
+}
+
+.links a{
+  position: relative;
+  top: 30px;
+  color: #FFF;
+  margin: 10px;
+  font-size: 40px;
+  letter-spacing: 20px;
+}
+a:hover,a.active{
+  background: none;
+  color: #0082e6;
+}
+.vertical-line{
+     display: inline-block;
+     border-left: 2px solid #ccc;
+     margin: 0 10px;
+     height: 125px;
+ }
+section{
+  padding-top: 40px;
+}
+
+
+@media (max-width: 952px){
+  span.logo{
+    display: none;
+  }
+
+  nav{
+    position: fixed;
+  }
+  footer .ftr{
+    flex-basis: 80%;
+    margin: 0 auto;
+
+  }
+  .vertical-line{
+    display: none;
+  }
+
+
+}
+@media (max-width: 858px){
+
+
+  nav ul li{
+		top: 30px;
+		position:relative;
+    display: inline-block;
+    line-height: 25px;
+
+
+
+  }
+  nav ul li a{
+    font-size: 14px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
