@@ -123,7 +123,6 @@ nav ul li a{
 	letter-spacing: 1px;
 
 }
-
 .inform{
 	padding-top: 40px;
   width: 80%;
@@ -239,6 +238,15 @@ h2{
   background-attachment: fixed;
   font-family: 'Staatliches', cursive;
 }
+.sin{
+  background: url("img/sin.png") no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Staatliches', cursive;
+}
 .hog .text-one,
 .spo .text-one,
 .sti .text-one,
@@ -248,7 +256,8 @@ h2{
 .cov .text-one,
 .himym .text-one,
 .castle .text-one,
-.hagrid .text-one{
+.hagrid .text-one,
+.sin .text-one{
   font-size: 25px;
   color: white;
   margin-left: 10px;
@@ -262,7 +271,9 @@ h2{
 .cov .text-two,
 .himym .text-two,
 .castle .text-two,
-.hagrid .text-two
+.hagrid .text-two,
+.sin .text-two
+
 {
   color: white;
   font-size: 75px;
@@ -323,6 +334,14 @@ h2{
     background-attachment: fixed;
     font-family: 'Staatliches', cursive;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	margin-bottom: 35px;
+  width: 50%;
+}
+
 footer{
  position: relative;
  top: 30px;
